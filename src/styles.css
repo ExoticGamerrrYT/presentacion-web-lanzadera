@@ -1,0 +1,61 @@
+/*
+Color Palette: https://colorhunt.co/palette/222831393e4600adb5eeeeee
+*/
+html {
+    background-color: #EEEEEE;
+}
+
+#title {
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 42px;
+    color: #222831;
+}
+
+#subtitle-1 {
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 16px;
+    color: #393E46;
+    margin-bottom: 3%;
+}
+
+#details-1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#tools-1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#list-1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3%;
+}
+
+#resources-1 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
