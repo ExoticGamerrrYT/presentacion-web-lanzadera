@@ -1,3 +1,4 @@
+// Comando para compilar: tsc src\app.ts
 var subtitle1 = document.querySelector("#subtitle-1");
 var subtitle1_text = 'Lanzadera de cohetes espaciales móvil.';
 // Cambiamos el contenido del subtítulo
