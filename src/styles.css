@@ -5,10 +5,17 @@ html {
     background-color: #EEEEEE;
 }
 
+
+#link-1:link, #link-1:visited {
+    color: #00ADB5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 #title {
     justify-content: center;
     display: flex;
-    font-family: 'Montserrat';
+    font-family: 'Raleway';
     font-weight: 900;
     font-size: 42px;
     color: #222831;
@@ -17,7 +24,7 @@ html {
 #subtitle-1 {
     justify-content: center;
     display: flex;
-    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
     font-weight: 400;
     font-style: oblique;
     font-size: 16px;
@@ -25,35 +32,60 @@ html {
     margin-bottom: 3%;
 }
 
-#details-1 {
-    font-family: 'Montserrat';
-    font-size: 18px;
+#details-title-1 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
 }
 
-#tools-1 {
-    font-family: 'Montserrat';
+#details-1 {
+    font-family: 'Open Sans';
     font-size: 18px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+#tools-1 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 3%;
+    margin-bottom: 0;
     text-align: center;
 }
 
 #list-1 {
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     font-size: 18px;
     margin-left: 40%;
     margin-right: 40%;
-    margin-top: 3%;
+    margin-top: 0;
 }
 
 #resources-1 {
-    font-family: 'Montserrat';
-    font-size: 18px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#images-title-1 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 3%;
@@ -74,4 +106,6 @@ html {
     width: 40%;
     display: block;
     margin: 10px auto;
+    border: #00ADB5 solid 2px;
 }
+
