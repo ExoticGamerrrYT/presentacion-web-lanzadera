@@ -2,12 +2,12 @@
 Color Palette: https://colorhunt.co/palette/222831393e4600adb5eeeeee
 */
 html {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
-
-#link-1:link, #link-1:visited {
-    color: #00ADB5;
+#link-1:link,
+#link-1:visited {
+    color: #00adb5;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -28,7 +28,7 @@ html {
     font-weight: 400;
     font-style: oblique;
     font-size: 16px;
-    color: #393E46;
+    color: #393e46;
     margin-bottom: 3%;
 }
 
@@ -106,6 +106,75 @@ html {
     width: 40%;
     display: block;
     margin: 10px auto;
-    border: #00ADB5 solid 2px;
+    border: #00adb5 solid 2px;
+}
+/*
+Shapes
+*/
+.parallax-container {
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
 }
 
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Formas a los lados */
+.parallax-container {
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+/* TODO: Formas a los lados */
+/*
+
+.square {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 5px
+}
+
+.parallax-container {
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.left-shape,
+.right-shape {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 20px;
+}
+
+.left-shape {
+    left: 0;
+}
+
+.right-shape {
+    right: 0;
+}
+*/
