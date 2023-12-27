@@ -19,3 +19,6 @@
 
 ## 0.0.7
 - Creamos este CHANGELOG.md y añadimos todas las versiones de este proyecto.
+
+## 0.0.8
+- Cleaned code and updated [README.md](README.md).

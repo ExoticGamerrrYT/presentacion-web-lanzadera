@@ -4,6 +4,9 @@ Hola! Este es el código de la web para presentar mi proyecto de Tecnología de 
 ## ¿Cómo funciona?
 Básicamente es una simple web en HTML5, usando CSS para añadir color y estilo y [TypeScript](https://www.typescriptlang.org/). Pero en el archivo [index.html](./src/index.html) nuestro link al script es [app.js](./src/app.js); bien esto se debe a que en vez de escribir todo el código en JavaScript lo escribo en [TypeScript](https://www.typescriptlang.org/) ya que con este puedo ver los errores en tiempo real en mi código y no en la consola, que es lo que pasa con JavaScript.
 
+## Recursos
+Paleta de colores: [Aquí](https://colorhunt.co/palette/222831393e4600adb5eeeeee).
+
 ### Licencia
 Bajo la [MIT LICENSE](./LICENSE).
 
