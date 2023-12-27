@@ -29,3 +29,6 @@
 ## 0.1.0
 - Added CSS rules for history.
 - Cleaned code.
+
+## 0.1.1
+- Restructured project and fixed some images shit.
