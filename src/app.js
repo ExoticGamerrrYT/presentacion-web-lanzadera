@@ -8,14 +8,6 @@ var details1_text = 'Trabajo de tecnología de 1º de bachillerato, consiste en 
 if (details1) {
     details1.textContent = details1_text;
 }
-/*
-const history1 = document.querySelector('#history-1')
-const pathToHistory1 = '../assets/history1.txt'
-const history1_text = fs.readFileSync(pathToHistory1, 'utf-8')
-if (history1){
-    history1.textContent = history1_text
-}
-*/
 var pathToHistory1 = '../assets/history1.txt';
 fetch(pathToHistory1)
     .then(function (response) {

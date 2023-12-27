@@ -25,3 +25,7 @@
 
 ## 0.0.9
 - Added history section.
+
+## 0.1.0
+- Added CSS rules for history.
+- Cleaned code.
