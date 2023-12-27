@@ -1,7 +1,5 @@
-//! Comando para compilar: tsc src\app.ts
 var subtitle1 = document.querySelector('#subtitle-1');
 var subtitle1_text = 'Lanzadera de cohetes espaciales móvil.';
-// Cambiamos el contenido del subtítulo
 if (subtitle1) {
     subtitle1.textContent = subtitle1_text;
 }
@@ -10,45 +8,27 @@ var details1_text = 'Trabajo de tecnología de 1º de bachillerato, consiste en 
 if (details1) {
     details1.textContent = details1_text;
 }
-/* CHECKBOX
-function handleCheckboxChange() {
-    const checkbox = document.getElementById("myCheckbox") as HTMLInputElement;
-    const statusElement = document.getElementById("status");
-
-    if (checkbox && statusElement) {
-        const status = checkbox.checked ? "Seleccionado" : "No seleccionado";
-        statusElement.textContent = "Estado: " + status;
-    }
-}
-*/
-// TODO: PARALLAX
 /*
-document.addEventListener('DOMContentLoaded', () => {
-    // Crea las formas
-    createShapes();
-});
-
-document.addEventListener('scroll', () => {
-    const scrollPosition = window.scrollY;
-    const parallaxContainer = document.querySelector('.parallax-container') as HTMLElement;
-
-    parallaxContainer.style.backgroundPositionY = `${scrollPosition * 0.7}px`;
-
-    // Mueve los cuadrados hacia arriba más lentamente
-    const squares = document.querySelectorAll('.square') as NodeListOf<HTMLElement>;
-    squares.forEach((square) => {
-        const speed = 0.3; // Ajusta la velocidad de movimiento
-        square.style.transform = `translateY(-${scrollPosition * speed}px) rotate(${Math.random() * 360}deg)`;
-    });
-});
-
-function createShapes() {
-    const numSquares = 20; // Ajusta la cantidad de cuadrados
-
-    for (let i = 0; i < numSquares; i++) {
-        const square = document.createElement('div');
-        square.classList.add('square');
-        document.body.appendChild(square);
-    }
+const history1 = document.querySelector('#history-1')
+const pathToHistory1 = '../assets/history1.txt'
+const history1_text = fs.readFileSync(pathToHistory1, 'utf-8')
+if (history1){
+    history1.textContent = history1_text
 }
 */
+var pathToHistory1 = '../assets/history1.txt';
+fetch(pathToHistory1)
+    .then(function (response) {
+    if (!response.ok) {
+        throw new Error("Error al cargar el archivo: ".concat(response.statusText));
+    }
+    return response.text();
+})
+    .then(function (history1_text) {
+    var history1_text_withBr = history1_text.replace(/\n/g, '<br>');
+    var history1 = document.querySelector('#history-1');
+    if (history1) {
+        history1.innerHTML = history1_text_withBr;
+    }
+})
+    .catch(function (error) { return console.error('Error:', error); });

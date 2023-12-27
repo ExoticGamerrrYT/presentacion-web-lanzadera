@@ -49,6 +49,28 @@ html {
     margin-bottom: 0;
     text-align: center;
 }
+
+#history-title-1 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#history-1 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 #tools-1 {
     font-family: 'Open Sans';
     font-size: 20px;

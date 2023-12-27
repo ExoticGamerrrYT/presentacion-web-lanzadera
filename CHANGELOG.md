@@ -22,3 +22,6 @@
 
 ## 0.0.8
 - Cleaned code and updated [README.md](README.md).
+
+## 0.0.9
+- Added history section.
