@@ -11,24 +11,31 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
             rel="stylesheet"
         />
-        <link rel="shortcut icon" href="../public/static/images/rocket-emoji.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/public/images/rocket-emoji.png" type="image/x-icon" />
     </head>
 
-    <body>  
-        </div>
-
+    <body>
         <div id="title">
             <p>LANZADERA ESPACIAL MÓVIL</p>
         </div>
         <div id="subtitle-1">
             <p>Subtitle</p>
         </div>
+
+        <!--
+            DETALLES
+        -->
+
         <div id="details-title-1">
             <p>Detalles</p>
         </div>
         <div id="details-1">
             <p>Detalles</p>
         </div>
+
+        <!--
+            HISTORIA
+        -->
 
         <div id="history-title-1">
             <p>Historia</p>
@@ -37,6 +44,84 @@
             <p>Historia.</p>
         </div>
 
+        <!--
+            IMAGENES
+        -->
+
+        <div id="images-title-1">
+            <p>Imágenes</p>
+        </div>
+        <div class="slideshow-container">
+            <!-- Images -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="/public/images/code_1.png" style="width: 100%" />
+                <div class="text">La primera imagen del desarrollo.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="/public/images/code_2.png" style="width: 100%" />
+                <div class="text">La segunda imagen del desarrollo.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="/public/images/code_3.png" style="width: 100%" />
+                <div class="text">La tercera imagen del desarrollo.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="/public/images/code_4.png" style="width: 100%" />
+                <div class="text">Boceto de la web.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="/public/images/no_1.png" style="width: 100%" />
+                <div class="text">La planificacións del proyecto.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="/public/images/ue_1.png" style="width: 100%" />
+                <div class="text">La primera versión del modelado.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="/public/images/ue_2.jpg" style="width: 100%" />
+                <div class="text">La segunda versión del modelado.</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="/public/images/ue_3.png" style="width: 100%" />
+                <div class="text">La tercera versión del modelado.</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">⏪</a>
+            <a class="next" onclick="plusSlides(1)">⏩</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+
+        <!--
+            HERRAMIENTAS Y RECURSOS
+        -->
         <div id="tools-1">
             <p>Herramientas</p>
         </div>
@@ -65,17 +150,6 @@
             </li>
         </div>
 
-        <div id="images-title-1">
-            <p>Imágenes</p>
-        </div>
-
-        <div id="image-container-1">
-            <img src="../public/static/images/code_1.png" alt="Primera imagen del desarrollo de esta web." class="image" />
-            <img src="../public/static/images/code_2.png" alt="Segunda imagen del desarrollo de esta web." class="image" />
-            <img src="../public/static/images/code_3.png" alt="Tercera imagen del desarrollo de esta web." class="image" />
-            <img src="../public/static/images/no_1.png" alt="Imagen de la estructura de esta web en Notion." class="image" />
-            <img src="../public/static/images/ue_1.png" alt="Primera imagen del desarrollo del modelo 3D." class="image" />
-        </div>
         <script src="app.js"></script>
     </body>
 </html>

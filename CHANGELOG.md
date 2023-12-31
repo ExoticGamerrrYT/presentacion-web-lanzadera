@@ -21,17 +21,20 @@
 - Creamos este CHANGELOG.md y añadimos todas las versiones de este proyecto.
 
 ## 0.0.8
-- Cleaned code and updated [README.md](README.md).
-
-## 0.0.9
-- Added history section.
+- Limpiamos el código y actualizamos el [README.md](README.md).
 
 ## 0.1.0
-- Added CSS rules for history.
-- Cleaned code.
+- Añadimos reglas de CSS para la historia.
+- Limpiamos código.
 
 ## 0.1.1
-- Restructured project and fixed some images shit.
+- Reestructurado proyecto y arreglado algunas imágenes.
 
 ## 0.1.2
-- Added ``.gitignore``.
+- Añadimos ``.gitignore``.
+
+## 0.2.0
+- Añadimos el deslizador de imágenes.
+- Movemos los recursos y herramientas al final de la página.
+- Cambiamos todo a JavaScript.
+- Actualizamos [README.md](README.md).
