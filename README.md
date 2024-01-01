@@ -2,10 +2,15 @@
 Hola! Este es el código de la web para presentar mi proyecto de Tecnología de 1º de bachillerato.
 
 ## ¿Cómo funciona?
-Básicamente es una simple web en HTML5, usando CSS para añadir color y estilo y Javascript para insertar grandes textos como el de la historia sin ensuciar nuestro archivo [index.html](src/index.html).
+Básicamente es una simple web en HTML5, usando CSS para presentar mi proyecto de tecnología.
 
-## Recursos
-Paleta de colores: [Aquí](https://colorhunt.co/palette/222831393e4600adb5eeeeee).
+## TO-DO!
+- [x] Hacer estructura básica de la web.
+- [x] Rellenar apartados.
+- [x] Añadir fotos.
+- [x] Mejorar la vista de fotos.
+- [ ] Añadir cuadrados con efecto parallax a los lados.
+- [ ] Añadir visor 3D para mi modelo.
 
 ### Changelog
 Changelog: [Aquí](CHANGELOG.md).

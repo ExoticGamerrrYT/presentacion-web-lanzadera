@@ -43,3 +43,6 @@
 - Arreglamos las imágenes que no se veían al ejecutar el archivo local.
 - Y quitamos el `fetch` del contenido de historia porque al ejecutarlo en local no se mostraba.
 - Reestructurado proyecto.
+
+## 0.2.2
+- Actualizamos [README.md](README.md) y le añadimos un TO-DO.
