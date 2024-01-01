@@ -46,3 +46,6 @@
 
 ## 0.2.2
 - Actualizamos [README.md](README.md) y le añadimos un TO-DO.
+
+## 0.2.3
+- Añadimos más imágenes.
