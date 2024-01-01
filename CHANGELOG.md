@@ -38,3 +38,8 @@
 - Movemos los recursos y herramientas al final de la página.
 - Cambiamos todo a JavaScript.
 - Actualizamos [README.md](README.md).
+
+## 0.2.1
+- Arreglamos las imágenes que no se veían al ejecutar el archivo local.
+- Y quitamos el `fetch` del contenido de historia porque al ejecutarlo en local no se mostraba.
+- Reestructurado proyecto.
