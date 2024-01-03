@@ -49,3 +49,6 @@
 
 ## 0.2.3
 - Añadimos más imágenes.
+
+## 0.2.4
+- Añadimos más imágenes.
