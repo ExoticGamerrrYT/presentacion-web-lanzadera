@@ -16,6 +16,7 @@ Básicamente es una simple web en HTML5, usando CSS para presentar mi proyecto d
 - [x] Página para las fotos finales.
 - [ ] ~~Añadir cuadrados con efecto parallax a los lados.~~
 - [ ] ~~Añadir visor 3D para mi modelo.~~
+- [x] Soporte para móvil.
 
 ### Changelog
 Changelog: [Aquí](CHANGELOG.md).
