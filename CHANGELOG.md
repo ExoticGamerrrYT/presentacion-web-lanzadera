@@ -64,3 +64,6 @@
 - Actualizamos [README.md](README.md).
 - Añadimos página para ver las imágenes finales.
 - Limpiamos código.
+
+## 0.3.1
+- Desplegado en Vercel.
