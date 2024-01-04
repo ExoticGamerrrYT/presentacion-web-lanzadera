@@ -1,135 +1,166 @@
 html {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 body {
-    margin-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f3f7fe;
+  color: #00adb5;
+  border: none;
+  border-radius: 8px;
+  width: 300px;
+  height: 50px;
+  transition: 0.3s;
+  box-shadow: #018a92 0 0 0 2px;
+}
+
+button:hover {
+  background-color: #00adb5;
+  box-shadow: 0 0 0 5px #018a92;
+  color: #eeeeee;
 }
 
 #link-1:link,
 #link-1:visited {
-    color: #00adb5;
-    background-color: transparent;
-    text-decoration: underline;
+  color: #00adb5;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 #title {
-    justify-content: center;
-    display: flex;
-    font-family: 'Raleway';
-    font-weight: 900;
-    font-size: 42px;
-    color: #222831;
+  justify-content: center;
+  display: flex;
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 42px;
+  color: #222831;
 }
 
 #subtitle-1 {
-    justify-content: center;
-    display: flex;
-    font-family: 'Ubuntu';
-    font-weight: 400;
-    font-style: oblique;
-    font-size: 16px;
-    color: #393e46;
-    margin-bottom: 3%;
+  justify-content: center;
+  display: flex;
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: oblique;
+  font-size: 16px;
+  color: #393e46;
+  margin-bottom: 3%;
 }
 
 #details-title-1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #details-1 {
-    font-family: 'Open Sans';
-    font-size: 18px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #history-title-1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #history-1 {
-    font-family: 'Open Sans';
-    font-size: 18px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #tools-1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    margin-bottom: 0;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #list-1 {
-    font-family: 'Open Sans';
-    font-size: 18px;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top: 0;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 0;
 }
 
 #resources-1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    margin-bottom: 20px;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #images-title-1 {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 3%;
-    margin-bottom: 20px;
-    text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #image-container-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: -20vh;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: -20vh;
+  margin: 0;
 }
 
 .image {
-    width: 40%;
-    display: block;
-    margin: 10px auto;
-    border: #00adb5 solid 2px;
+  width: 40%;
+  display: block;
+  margin: 10px auto;
+  border: #00adb5 solid 2px;
+}
+
+#final-images-container {
+    display: flex;
+    justify-content: center;
+}
+
+#go-to-main-html {
+    display: flex;
+    justify-content: center;
 }
 
 /*
@@ -137,86 +168,87 @@ body {
 */
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides img {
-    width: 100%; /* Hace que todas las imágenes ocupen el 100% del contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
-    max-height: 1080px; /* Ajusta la altura máxima según tus necesidades */
-    display: block;
-    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+  width: 100%; /* Hace que todas las imágenes ocupen el 100% del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  max-height: 1080px; /* Ajusta la altura máxima según tus necesidades */
+  display: block;
+  margin: 0 auto; /* Centra la imagen dentro del contenedor */
 }
 
 /* Next & previous buttons */
 .prev,
 .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #eeeeee;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-    color: #eeeeee;
-    font-size: 15px;
-    font-family: 'Ubuntu';
-    font-weight: 900;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    -webkit-text-stroke: #222831 1px;
+  color: #eeeeee;
+  font-size: 15px;
+  font-family: 'Ubuntu';
+  font-weight: 900;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  -webkit-text-stroke: #222831 1px;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #eeeeee;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #eeeeee;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #eeeeee;
-    border: #222831 2px solid;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-bottom: 20px;
+  background-color: #eeeeee;
+  border: #222831 2px solid;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active,
 .dot:hover {
-    background-color: #00adb5;
+  background-color: #00adb5;
 }

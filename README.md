@@ -4,13 +4,16 @@ Hola! Este es el código de la web para presentar mi proyecto de Tecnología de 
 ## ¿Cómo funciona?
 Básicamente es una simple web en HTML5, usando CSS para presentar mi proyecto de tecnología.
 
+> Para ver muchas otras fotos no añadidas ver [unused](unused/).
+
 ## TO-DO!
 - [x] Hacer estructura básica de la web.
 - [x] Rellenar apartados.
 - [x] Añadir fotos.
 - [x] Mejorar la vista de fotos.
-- [ ] Añadir cuadrados con efecto parallax a los lados.
-- [ ] Añadir visor 3D para mi modelo.
+- [x] Página para las fotos finales.
+- [ ] ~~Añadir cuadrados con efecto parallax a los lados.~~
+- [ ] ~~Añadir visor 3D para mi modelo.~~
 
 ### Changelog
 Changelog: [Aquí](CHANGELOG.md).

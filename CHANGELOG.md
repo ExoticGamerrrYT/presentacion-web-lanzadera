@@ -56,3 +56,11 @@
 ## 0.2.5
 - Añadimos fotos finales del proyecto.
 - Añadimos reflexión final.
+
+## 0.3.0
+- Añadimos fotos finales del proyecto.
+- Eliminamos algunas fotos innecesarias.
+- Se añade la carpeta [unused](unused/) donde se almacenan muchas de las otras fotos sin añadir al proyecto.
+- Actualizamos [README.md](README.md).
+- Añadimos página para ver las imágenes finales.
+- Limpiamos código.
